@@ -1,2 +1,17 @@
 helloworld/
 keystore/
+
+MyIntentApp/*.iml
+MyIntentApp/.gradle
+MyIntentApp/local.properties
+MyIntentApp/.idea/caches
+MyIntentApp/.idea/libraries
+MyIntentApp/.idea/modules.xml
+MyIntentApp/.idea/workspace.xml
+MyIntentApp/.idea/navEditor.xml
+MyIntentApp/.idea/assetWizardSettings.xml
+MyIntentApp/.DS_Store
+MyIntentApp/build
+MyIntentApp/captures
+MyIntentApp/.externalNativeBuild
+MyIntentApp.cxx
