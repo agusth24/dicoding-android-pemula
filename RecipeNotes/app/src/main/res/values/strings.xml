@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Recipe Notes</string>
+    <string name="judul">Recipe</string>
+    <string name="detail">Details</string>
+    <string name="list">List</string>
+    <string name="grid">Grid</string>
+    <string name="card">Card</string>
+    <string name="favorite">Favorite</string>
+    <string name="share">Share</string>
+    <string name="about">About</string>
+    <string name="title_activity_about">About Me</string>
+    <string name="name">Agus Tri Haryono</string>
+    <string name="email">agustharyono24@gmail.com</string>
+</resources>
