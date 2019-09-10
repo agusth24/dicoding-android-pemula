@@ -15,3 +15,5 @@ keystore/
 */.externalNativeBuild
 *.cxx
 
+NavigationUI/
+NavigationDrawer/
