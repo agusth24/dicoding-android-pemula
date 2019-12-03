@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@android:drawable/ic_dialog_dialer"
+            android:title="Home" />
+        <item
+            android:id="@+id/kategori"
+            android:icon="@android:drawable/ic_dialog_dialer"
+            android:title="Kategori" />
+        <item
+            android:id="@+id/pohon"
+            android:icon="@android:drawable/ic_dialog_dialer"
+            android:title="Pohon" />
+        <item
+            android:id="@+id/report"
+            android:icon="@android:drawable/ic_dialog_dialer"
+            android:title="Laporan" />
+        <item
+            android:id="@+id/about"
+            android:icon="@android:drawable/ic_dialog_dialer"
+            android:title="Tentang Kami" />
+    </group>
+
+    <item android:title="Social">
+        <menu>
+            <item
+                android:id="@+id/fb"
+                android:icon="@android:drawable/ic_menu_send"
+                android:title="Facebook" />
+            <item
+                android:id="@+id/instagram"
+                android:icon="@android:drawable/ic_menu_send"
+                android:title="@string/instagram" />
+            <item
+                android:id="@+id/twitter"
+                android:icon="@android:drawable/ic_menu_send"
+                android:title="Twitter" />
+            <item
+                android:id="@+id/youtube"
+                android:icon="@android:drawable/ic_menu_send"
+                android:title="Youtube" />
+            <item
+                android:id="@+id/github"
+                android:icon="@android:drawable/ic_menu_send"
+                android:title="Github" />
+        </menu>
+    </item>
+
+</menu>

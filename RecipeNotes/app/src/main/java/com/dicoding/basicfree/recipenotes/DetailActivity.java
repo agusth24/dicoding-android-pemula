@@ -30,8 +30,8 @@ public class DetailActivity extends AppCompatActivity
             getSupportActionBar().setTitle("Recipe Detail");
         }
 
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setHomeButtonEnabled(true);
+            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+            getSupportActionBar().setHomeButtonEnabled(true);
 
         TextView resJudul = findViewById(R.id.tv_item_name);
         TextView resDetail = findViewById(R.id.tv_item_detail);
