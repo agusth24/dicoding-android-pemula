@@ -1,12 +1,12 @@
 <resources>
     <string name="app_name">Dicoding: Movie Catalogue</string>
     <string name="title">Title</string>
-    <string name="desc">Description</string>
-    <string name="release">Date Release</string>
-    <string name="rating">Rating</string>
-    <string name="overview">Overview</string>
-    <string name="rating_detail">Rating: %1$s</string>
-    <string name="release_detail">Premiere: %1$s</string>
+        <string name="desc">Description</string>
+        <string name="release">Date Release</string>
+        <string name="rating">Rating</string>
+        <string name="overview">Overview</string>
+        <string name="rating_detail">Rating: %1$s</string>
+        <string name="release_detail">Premiere: %1$s</string>
 
     <string-array name="data_title">
         <item>A Star is Born</item>

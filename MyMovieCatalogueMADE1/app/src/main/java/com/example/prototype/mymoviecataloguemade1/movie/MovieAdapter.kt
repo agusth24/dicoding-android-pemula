@@ -9,13 +9,13 @@ import android.widget.ImageView
 import android.widget.TextView
 import com.example.prototype.mymoviecataloguemade1.R
 
-class MovieAdapter internal constructor(private val context: Context): BaseAdapter() {
+class MovieAdapter internal constructor(private val context: Context) : BaseAdapter() {
     internal var movies = arrayListOf<Movie>()
 
     override fun getView(position: Int, view: View?, viewGroup: ViewGroup?): View {
         var itemView: View?
         val viewHolder: ViewHolder
-        if(view == null) {
+        if (view == null) {
             itemView = LayoutInflater.from(context).inflate(R.layout.movie_item, viewGroup, false)
             viewHolder = ViewHolder(itemView as View)
             itemView.tag = viewHolder
@@ -47,7 +47,7 @@ class MovieAdapter internal constructor(private val context: Context): BaseAdapt
         private val textInfo: TextView? = view?.findViewById(R.id.txt_info)
         private val imgPhoto: ImageView? = view?.findViewById(R.id.img_photo)
 
-        internal fun bind (movie: Movie) {
+        internal fun bind(movie: Movie) {
             textTitle?.text = movie.title
             textDesc?.text = movie.description
             textInfo?.text = (movie.rating + " | " + movie.release)

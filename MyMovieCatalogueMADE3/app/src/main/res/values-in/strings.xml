@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">MyMovieCatalogueMADE3</string>
+    <string name="title_movies">Film</string>
+    <string name="title_tvshow">TV Seri</string>
+    <string name="title_setting">Pengaturan</string>
+    <string name="movie_title">Judul</string>
+    <string name="movie_description">Deskripsi</string>
+    <string name="movie_information">Informasi</string>
+    <string name="movie_overview">Prolog</string>
+    <string name="movie_rating_detail">Skor</string>
+    <string name="movie_release_detail">Tayang</string>
+    <string name="setting_menu">Menu Pengaturan</string>
+    <string name="title_detail_movie">Detil Film</string>
+    <string name="title_detail_tvshows">Detil TV Seri</string>
+    <string name="no_data">Data Tidak Ditemukan</string>
+    <string name="no_desc">Data Tidak Tersedia</string>
+    <string name="poster">Poster</string>
+
+    <string-array name="setting_menu">
+        <item>Bahasa</item>
+    </string-array>
+
+</resources>

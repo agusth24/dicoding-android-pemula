@@ -39,7 +39,7 @@ class DetailCategoryFragment : Fragment(), View.OnClickListener {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        tvCategoryName = view.findViewById(R.id.tv_category_name)
+        tvCategoryName =    view.findViewById(R.id.tv_category_name)
         tvCategoryDescription = view.findViewById(R.id.tv_category_description)
         btnProfile = view.findViewById(R.id.btn_profile)
         btnProfile.setOnClickListener(this)

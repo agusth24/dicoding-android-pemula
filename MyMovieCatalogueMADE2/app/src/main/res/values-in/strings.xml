@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">MyMovieCatalogueMADE2</string>
+    <string name="title_movies">Film</string>
+    <string name="title_tvshow">TV Seri</string>
+    <string name="title_setting">Pengaturan</string>
+    <string name="movie_title">Judul</string>
+    <string name="movie_description">Deskripsi</string>
+    <string name="movie_information">Informasi</string>
+    <string name="movie_overview">Prolog</string>
+    <string name="movie_rating_detail">Skor</string>
+    <string name="movie_release_detail">Tayang</string>
+    <string name="setting_menu">Menu Pengaturan</string>
+    <string name="title_detail_movie">Detil Film</string>
+    <string name="title_detail_tvshows">Detil TV Seri</string>
+
+    <string-array name = "data_movie_desc">
+        <item> Musisi kawakan Jackson Maine menemukan dan jatuh cinta pada artis yang sedang berjuang, Ally. Dia baru saja menyerah pada mimpinya untuk menjadi besar sebagai penyanyi - sampai Jack membujuknya menjadi sorotan. Tetapi bahkan ketika karier Ally lepas landas, sisi pribadi dari hubungan mereka hancur, karena Jack berjuang terus-menerus dengan setan internalnya sendiri. </item>
+        <item> Dulunya merupakan rumah bagi peradaban paling maju di Bumi, Atlantis sekarang merupakan kerajaan bawah laut yang diperintah oleh Raja Orm yang haus kekuasaan. Dengan pasukan yang sangat besar, Orm berencana untuk menaklukkan orang-orang samudera yang tersisa dan kemudian ke permukaan dunia. Yang menghalangi jalannya adalah Arthur Curry, setengah manusia setengah manusia, saudara setengah Atlantis dan pewaris sejati takhta. </item>
+        <item> Saat Avengers dan sekutu mereka terus melindungi dunia dari ancaman yang terlalu besar untuk ditangani oleh satu pahlawan, bahaya baru telah muncul dari bayang-bayang kosmik: Thanos. Seorang lalim penghinaan intergalaksi, tujuannya adalah untuk mengumpulkan semua enam Batu Infinity, artefak kekuatan tak terbayangkan, dan menggunakannya untuk menimbulkan keinginannya yang terpelintir pada semua kenyataan. Segala sesuatu yang Avengers telah perjuangkan telah mengarah ke saat ini - nasib Bumi dan keberadaannya sendiri tidak pernah lebih tidak pasti. </item>
+        <item> Lima tahun setelah kehadiran tak terlihat yang tidak menyenangkan mendorong sebagian besar masyarakat untuk bunuh diri, seorang yang selamat dan dua anaknya melakukan upaya putus asa untuk mencapai keselamatan. </item>
+        <item> Penyanyi Freddie Mercury, gitaris Brian May, drummer Roger Taylor dan gitaris John Deacon mengambil dunia musik dengan badai ketika mereka membentuk band rock Queen Rock pada tahun 1970. Lagu-lagu hit menjadi klasik instan. Ketika gaya hidup Mercury yang semakin liar mulai lepas kendali, Queen segera menghadapi tantangan terbesarnya - menemukan cara untuk menjaga band tetap bersama di tengah kesuksesan dan kelebihan. </item>
+        <item> Dalam pelarian pada tahun 1987, Bumblebee menemukan perlindungan di tempat barang rongsokan di kota pantai kecil California. Charlie, di puncak usia 18 dan berusaha menemukan tempatnya di dunia, menemukan Bumblebee, bekas luka pertempuran dan patah. Ketika Charlie membangkitkannya, dia dengan cepat mengetahui bahwa ini bukan bug VW kuning biasa. </item>
+        <item> Antara kewajiban pribadi dan pelatihan untuk pertarungan besar berikutnya melawan lawan yang memiliki ikatan dengan masa lalu keluarganya, Adonis Creed menghadapi tantangan hidupnya. </item>
+        <item> Fred Savage yang diculik terpaksa menanggung rendisi PG-13 Deadpool 2 dari Deadpool 2 sebagai kisah Putri Pengantin yang penuh sihir, bertanya-tanya nol F. </item>
+        <item> Saat Hiccup memenuhi mimpinya untuk menciptakan utopia naga yang damai, penemuan Toothless tentang pasangan yang liar dan sulit ditangkap menarik Night Fury pergi. Saat bahaya memuncak di rumah dan pemerintahan Hiccup sebagai kepala desa diuji, baik naga dan pengendara harus membuat keputusan yang mustahil untuk menyelamatkan jenis mereka. </item>
+        <item> Bumi damai setelah Turnamen Kekuasaan. Menyadari bahwa alam semesta masih memiliki banyak orang yang lebih kuat untuk dilihat, Goku menghabiskan seluruh hari pelatihannya untuk mencapai ketinggian yang lebih besar. Lalu suatu hari, Goku dan Vegeta dihadapkan oleh seorang Saiyan yang disebut \'Broly\' yang belum pernah mereka lihat sebelumnya. Orang-orang Saiyan seharusnya hampir sepenuhnya musnah dalam kehancuran Planet Vegeta, jadi apa yang dilakukan orang ini di Bumi? Pertemuan antara ketiga Saiyan yang telah mengikuti takdir yang sama sekali berbeda ini berubah menjadi pertempuran yang luar biasa, dengan bahkan Frieza (kembali dari Neraka) terperangkap dalam campuran. </item>
+        <item> Dalam serangkaian pertemuan yang meningkat, mantan penjaga keamanan David Dunn menggunakan kemampuan supernaturalnya untuk melacak Kevin Wendell Crumb, seorang lelaki terganggu yang memiliki dua puluh empat kepribadian. Sementara itu, kehadiran bayangan Elia Price muncul sebagai seorang orkestra yang menyimpan rahasia penting bagi keduanya. </item>
+        <item> Kapten Glass dari USS Arkansas menemukan bahwa kudeta sedang berlangsung di Rusia, jadi dia dan krunya bergabung dengan kelompok elit yang bekerja di tanah untuk mencegah perang. </item>
+        <item> Di era Depresi London, seorang Jane dan Michael Banks yang sudah dewasa, bersama dengan ketiga anak Michael, dikunjungi oleh Mary Poppins yang penuh teka-teki setelah kehilangan pribadi. Melalui keterampilan sihirnya yang unik, dan dengan bantuan temannya Jack, dia membantu keluarga menemukan kembali kegembiraan dan keajaiban yang hilang dalam hidup mereka. </item>
+        <item> Beribu-ribu tahun di masa depan, kota-kota di bumi menjelajah dunia dengan roda besar, saling melahap dalam perjuangan untuk sumber daya yang semakin berkurang. Di salah satu kota traksi besar ini, London tua, Tom Natsworthy mengalami perjumpaan tak terduga dengan seorang wanita muda misterius dari daerah terlantar yang akan mengubah jalan hidupnya selamanya. </item>
+        <item> Setelah tiga tahun, bisnis Muslihat (Epi Kusnandar), yang telah pensiun sebagai preman, memiliki masalah. Penurunan penjualan. Muslihat juga menghadapi masalah baru ketika Safira (Safira Maharani), satu-satunya anak perempuannya, tumbuh di masa remaja dan mulai dikunjungi oleh anak laki-laki. Masalah yang lebih besar: gesekan antara mantan bawahannya. </item>
+        <item> Tentara Salib yang mengeras perang dan komandan Moornya melancarkan pemberontakan yang berani melawan mahkota Inggris yang korup. </item>
+        <item> Miles Morales menyulap hidupnya antara menjadi siswa sekolah menengah dan menjadi manusia laba-laba. Saat Wilson "Kingpin" Fisk menggunakan collider super, yang lain dari seluruh Spider-Verse diangkut ke dimensi ini. </item>
+        <item> Di Stockholm, Swedia, peretas Lisbeth Salander disewa oleh Frans Balder, seorang insinyur komputer, untuk mengambil sebuah program yang menurutnya terlalu berbahaya untuk ada. </item>
+        <item> Earl Stone, seorang pria berusia delapan puluhan, bangkrut, sendirian, dan menghadapi penyitaan bisnisnya ketika dia ditawari pekerjaan yang hanya mengharuskannya mengemudi. Cukup mudah, tetapi, tanpa diketahui Earl, dia baru saja mendaftar sebagai kurir narkoba untuk kartel Meksiko. Dia melakukannya dengan sangat baik sehingga muatannya meningkat secara eksponensial, dan Earl menabrak radar agen DEA yang sibuk mengisi baterai. </item>
+        <item> Wartawan investigasi Eddie Brock mencoba kembali setelah skandal, tetapi secara tidak sengaja menjadi tuan rumah Venom, seorang simbiot alien yang sangat kuat dan sakti. Segera, ia harus mengandalkan kekuatan barunya untuk melindungi dunia dari organisasi bayangan yang mencari simbiosis mereka sendiri. </item>
+    </string-array>
+
+    <string-array name="data_movie_release">
+        <item>Oktober 5, 2018</item>
+        <item>Desember 21, 2018</item>
+        <item>April 23, 2018</item>
+        <item>November 12, 2018</item>
+        <item>Oktober 30, 2018</item>
+        <item>Desember 21, 2018</item>
+        <item>November 14, 2018</item>
+        <item>Desember 11, 2018</item>
+        <item>Februari 22, 2019</item>
+        <item>Desember 13, 2018</item>
+        <item>Januari 18, 2019</item>
+        <item>Oktober 26, 2018</item>
+        <item>November 29, 2018</item>
+        <item>Desember 14, 2018</item>
+        <item>Januari 17, 2019</item>
+        <item>November 21, 2018</item>
+        <item>Desember 1, 2018</item>
+        <item>November 9, 2018</item>
+        <item>Desember 10, 2018</item>
+        <item>Oktober 1, 2018</item>
+    </string-array>
+
+    <string-array name = "data_tvshow_desc">
+        <item> Dari pembunuhan dan spionase hingga terorisme dan kapal selam curian, tim agen khusus menyelidiki kejahatan apa pun yang memiliki sedikit pun bukti yang terhubung dengan personel Korps Angkatan Laut dan Korps Marinir, terlepas dari pangkat atau jabatannya. </item>
+        <item> Kara Zor-El yang berusia 24 tahun, yang ditangkap oleh keluarga Danvers ketika dia berusia 13 tahun setelah diusir dari Krypton, harus belajar merangkul kekuatannya setelah sebelumnya menyembunyikannya. Orang-orang Danvers mengajarinya untuk berhati-hati dengan kekuatannya, sampai dia harus mengungkapkannya selama bencana yang tak terduga, menempatkannya dalam perjalanan kepahlawanannya. </item>
+        <item> Chicagoan Frank Gallagher adalah ayah tunggal yang bangga dari enam anak yang cerdas, rajin, mandiri, yang tanpa dia akan … mungkin lebih baik. Ketika Frank tidak di bar menghabiskan sedikit uang yang mereka miliki, dia pingsan di lantai. Tetapi anak-anak telah menemukan cara untuk tumbuh meskipun dia. Mereka mungkin tidak seperti keluarga yang Anda kenal, tetapi mereka tidak meminta maaf karena menjadi siapa mereka sebenarnya. </item>
+        <item> Mengikuti kehidupan pribadi dan profesional sekelompok dokter di Rumah Sakit Gray Sloan Memorial di Seattle. </item>
+        <item> Sebelum ada Batman, ada GOTHAM. \nSemua orang tahu nama Komisaris Gordon. Dia adalah salah satu musuh terbesar dunia kejahatan, seorang pria yang reputasinya identik dengan hukum dan ketertiban. Tapi apa yang diketahui dari kisah Gordon dan kebangkitannya dari detektif pemula menjadi Komisaris Polisi? Apa yang diperlukan untuk menavigasi berbagai lapisan korupsi yang diam-diam memerintah Kota Gotham, tempat bertelurnya penjahat paling ikonik di dunia? Dan keadaan apa yang menciptakan mereka - persona yang lebih besar dari kehidupan yang akan menjadi Catwoman, The Penguin, The Riddler, Two-Face dan The Joker? </item>
+        <item> Danny Rand muncul kembali 15 tahun setelah dianggap mati. Sekarang, dengan kekuatan Iron Fist, ia berusaha untuk merebut kembali masa lalunya dan memenuhi takdirnya. </item>
+        <item> Berada di masa sekarang, seri ini menawarkan pandangan subversif yang berani tentang Archie, Betty, Veronica dan teman-teman mereka, menjelajahi kejernihan kehidupan kota kecil, kegelapan dan keanehan yang meluap-luap di bawah fasad sehat Riverdale. </item>
+        <item> Ketika mereka masih kecil, Sam dan Dean Winchester kehilangan ibu mereka karena kekuatan gaib yang misterius dan iblis. Selanjutnya, ayah mereka membesarkan mereka menjadi tentara. Dia mengajari mereka tentang kejahatan paranormal yang hidup di sudut-sudut gelap dan di jalan belakang Amerika … dan dia mengajari mereka cara membunuhnya. Sekarang, saudara-saudara Winchester menjelajahi negara itu dengan Chevy Impala mereka, melawan semua jenis ancaman gaib yang mereka temui di sepanjang jalan. </item>
+        <item> Seri animasi manis, aneh, terpelintir, dan tidak benar Freakin menampilkan petualangan keluarga Griffin yang disfungsional. Peter yang kikuk dan Lois yang sudah lama menderita memiliki tiga anak. Stewie (bayi yang cerdas tetapi sadis yang bertekad membunuh ibunya dan mengambil alih dunia), Meg (yang tertua, dan merupakan gadis yang paling tidak populer di kota) dan Chris (anak tengah, dia tidak terlalu cerdas tetapi memiliki gairah untuk film). Anggota terakhir keluarga itu adalah Brian - anjing yang bisa bicara dan lebih dari sekadar hewan peliharaan, ia menjaga Stewie, sambil menghirup Martinis dan memilah-milah masalah hidupnya sendiri. </item>
+        <item> Tujuh keluarga bangsawan berjuang untuk menguasai tanah mitos Westeros. Gesekan antara rumah-rumah mengarah ke perang skala penuh. Semua sementara kejahatan yang sangat kuno terbangun di utara terjauh. Di tengah-tengah perang, perintah militer yang diabaikan, Night\'s Watch, adalah satu-satunya yang berdiri di antara ranah manusia dan kengerian es di luarnya. </item>
+        <item> Naruto Shippuuden adalah kelanjutan dari serial TV animasi asli Naruto. Ceritanya berkisar pada Naruto Uzumaki yang lebih tua dan sedikit lebih matang dan upayanya untuk menyelamatkan temannya Uchiha Sasuke dari cengkeraman Shinobi seperti ular, Orochimaru. Setelah 2 setengah tahun, Naruto akhirnya kembali ke desanya Konoha, dan mulai mewujudkan ambisinya, meskipun itu tidak akan mudah, karena Dia telah mengumpulkan beberapa musuh (lebih berbahaya), seperti organisasi shinobi. ; Akatsuki. </item>
+        <item> Keluarga superhero yang disfungsional berkumpul untuk memecahkan misteri kematian ayah mereka, ancaman kiamat, dan banyak lagi. </item>
+        <item> Bertempat di Springfield, kota rata-rata di Amerika, pertunjukan ini berfokus pada kejenakaan dan petualangan sehari-hari keluarga Simpson; Homer, Marge, Bart, Lisa dan Maggie, serta ribuan pemain virtual. Sejak awal, serial ini telah menjadi ikon budaya pop, menarik ratusan selebriti menjadi bintang tamu. Acara ini juga menjadi terkenal karena satirnya yang tak kenal takut terhadap kehidupan politik, media, dan Amerika secara umum. </item>
+        <item> Setelah akselerator partikel menyebabkan badai hebat, Penyelidik CSI Barry Allen disambar petir dan jatuh koma. Beberapa bulan kemudian dia terbangun dengan kekuatan kecepatan super, memberinya kemampuan untuk bergerak melalui Central City seperti malaikat penjaga yang tak terlihat. Meskipun awalnya senang dengan kekuatan barunya, Barry terkejut menemukan bahwa dia bukan satu-satunya "manusia meta" yang diciptakan setelah ledakan akselerator - dan tidak semua orang menggunakan kekuatan baru mereka untuk kebaikan. Barry bermitra dengan S.T.A.R. Lab dan mendedikasikan hidupnya untuk melindungi yang tidak bersalah. Untuk saat ini, hanya beberapa teman dekat dan rekan yang tahu bahwa Barry secara harfiah adalah manusia tercepat, tetapi tidak akan lama sebelum dunia mengetahui apa yang menjadi Barry Allen … The Flash. </item>
+        <item> Dahulu di gunung, seorang master pertempuran yang dikenal sebagai Gohan menemukan seorang anak aneh yang ia beri nama Goku. Gohan membesarkannya dan melatih Goku dalam seni bela diri sampai dia mati. Bocah muda dan sangat kuat itu sendirian, tetapi mudah dikelola. Kemudian suatu hari, Goku bertemu dengan seorang gadis remaja bernama Bulma, yang pencariannya untuk Bola Naga mistis membawanya ke rumah Goku. Bersama-sama, mereka berangkat untuk menemukan ketujuh dan mengabulkan keinginannya. </item>
+        <item> Drama thriller dan usia dewasa ini mengikuti perjalanan seorang gadis muda yang luar biasa saat ia menghindari pengejaran tanpa henti dari seorang agen CIA yang tidak ada buku dan mencoba untuk menggali kebenaran di balik siapa dirinya. Berdasarkan film Joe Wright 2011. </item>
+        <item> Anggota Patroli Doom masing-masing mengalami kecelakaan mengerikan yang memberi mereka kemampuan manusia super - tetapi juga membuat mereka terluka dan cacat. Trauma dan tertindas, tim menemukan tujuan melalui Ketua, yang menyatukan mereka untuk menyelidiki fenomena paling aneh yang ada - dan untuk melindungi Bumi dari apa yang mereka temukan. </item>
+        <item> Playboy miliarder manja, Oliver Queen, hilang dan diduga tewas saat kapal pesiarnya hilang di laut. Dia kembali lima tahun kemudian seorang pria yang berubah, bertekad untuk membersihkan kota sebagai main hakim sendiri bersenjatakan busur. </item>
+        <item> Wakil Sheriff Rick Grimes terbangun dari koma untuk menemukan dunia pasca-apokaliptik yang didominasi oleh zombie pemakan daging. Dia berangkat untuk menemukan keluarganya dan bertemu dengan banyak penyintas lainnya di sepanjang jalan. </item>
+        <item> Lucy adalah gadis berusia 17 tahun, yang ingin menjadi penyihir penuh. Suatu hari ketika mengunjungi Kota Harujion, dia bertemu Natsu, seorang pemuda yang mudah sakit karena segala jenis transportasi. Tapi Natsu bukan sembarang anak biasa, dia adalah anggota dari salah satu serikat penyihir paling terkenal di dunia: Fairy Tail. </item>
+    </string-array>
+
+    <string-array name="data_tvshow_release">
+        <item>Musim 17: September 24, 2019</item>
+        <item>Musim 5: Oktober 6, 2019</item>
+        <item>Musim 10: November 10, 2019</item>
+        <item>Musim 16: September 26, 2019</item>
+        <item>Musim 5: Januari 3, 2019</item>
+        <item>Musim 2: September 7, 2018</item>
+        <item>Musim 4: Oktober 9, 2019</item>
+        <item>Musim 15: Oktober 10, 2019</item>
+        <item>Musim 18: September 29, 2019</item>
+        <item>Musim 8: April 14, 2019</item>
+        <item>Musim 20</item>
+        <item>Musim 1: Februari 15, 2019</item>
+        <item>Musim 31: September 29, 2019</item>
+        <item>Musim 6: Oktober 8, 2019</item>
+        <item>Musim 1: Februari 25, 1986</item>
+        <item>Musim 1: Maret 28, 2019</item>
+        <item>Musim 1: Februari 15, 2019</item>
+        <item>Musim 8: November 9, 2018</item>
+        <item>Musim 1: Desember 10, 2018</item>
+        <item>Musim 8: Oktober 7, 2018</item>
+    </string-array>
+
+    <string-array name="setting_menu">
+        <item>Bahasa</item>
+    </string-array>
+
+</resources>

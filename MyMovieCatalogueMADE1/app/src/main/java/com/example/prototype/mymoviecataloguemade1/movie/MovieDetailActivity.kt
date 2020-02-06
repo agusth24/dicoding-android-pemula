@@ -11,6 +11,7 @@ class MovieDetailActivity : AppCompatActivity() {
     companion object {
         const val OBJECT_MOVIE = "object_movie"
     }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_movie_detail)

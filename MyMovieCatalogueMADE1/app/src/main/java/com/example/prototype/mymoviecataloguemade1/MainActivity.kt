@@ -2,10 +2,10 @@ package com.example.prototype.mymoviecataloguemade1
 
 import android.content.Intent
 import android.content.res.TypedArray
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.AdapterView
 import android.widget.ListView
+import androidx.appcompat.app.AppCompatActivity
 import com.example.prototype.mymoviecataloguemade1.movie.Movie
 import com.example.prototype.mymoviecataloguemade1.movie.MovieAdapter
 import com.example.prototype.mymoviecataloguemade1.movie.MovieDetailActivity
