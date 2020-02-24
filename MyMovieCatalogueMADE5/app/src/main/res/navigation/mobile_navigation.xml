@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@+id/navigation_movies">
+
+    <fragment
+        android:id="@+id/navigation_movies"
+        android:name="com.example.prototype.mymoviecataloguemade5.ui.movies.MoviesFragment"
+        android:label="@string/title_movies"
+        tools:layout="@layout/fragment_movies" />
+
+    <fragment
+        android:id="@+id/navigation_tvshow"
+        android:name="com.example.prototype.mymoviecataloguemade5.ui.tvshow.TvshowsFragment"
+        android:label="@string/title_tvshow"
+        tools:layout="@layout/fragment_tvshows" />
+
+    <fragment
+        android:id="@+id/navigation_favorite_movies"
+        android:name="com.example.prototype.mymoviecataloguemade5.ui.movies.MoviesFavoriteFragment"
+        android:label="@string/title_favorite_movies"
+        tools:layout="@layout/fragment_movies" />
+
+    <fragment
+        android:id="@+id/navigation_favorite_tvshow"
+        android:name="com.example.prototype.mymoviecataloguemade5.ui.tvshow.TvshowsFavoriteFragment"
+        android:label="@string/title_favorite_tvshows"
+        tools:layout="@layout/fragment_tvshows" />
+
+    <fragment
+        android:id="@+id/navigation_setting"
+        android:name="com.example.prototype.mymoviecataloguemade5.ui.setting.SettingFragment"
+        android:label="@string/title_setting"
+        tools:layout="@layout/fragment_setting" />
+</navigation>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_movies"
+        android:icon="@drawable/ic_movie_black_24dp"
+        android:title="@string/title_movies" />
+
+    <item
+        android:id="@+id/navigation_tvshow"
+        android:icon="@drawable/ic_personal_video_black_24dp"
+        android:title="@string/title_tvshow" />
+
+    <item
+        android:id="@+id/navigation_favorite_movies"
+        android:icon="@drawable/ic_subscriptions_black_24dp"
+        android:title="@string/title_favorite_movies" />
+
+    <item
+        android:id="@+id/navigation_favorite_tvshow"
+        android:icon="@drawable/ic_queue_play_next_black_24dp"
+        android:title="@string/title_favorite_tvshows" />
+
+    <item
+        android:id="@+id/navigation_setting"
+        android:icon="@drawable/ic_settings_black_24dp"
+        android:title="@string/title_setting" />
+
+</menu>

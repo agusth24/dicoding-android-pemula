@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">MyMovieCatalogueMADE5</string>
+    <string name="title_movies">Movies</string>
+    <string name="title_tvshow">TV Show</string>
+    <string name="title_setting">Setting</string>
+    <string name="movie_title">Title</string>
+    <string name="movie_description">Description</string>
+    <string name="movie_information">Information</string>
+    <string name="movie_overview">Overview</string>
+    <string name="movie_rating_detail">Rating</string>
+    <string name="movie_release_detail">Premiere</string>
+    <string name="setting_menu">Menu Setting</string>
+    <string name="title_detail_movie">Detail Movie</string>
+    <string name="title_detail_tvshows">Detail TV Shows</string>
+    <string name="no_data">Data Not Found</string>
+    <string name="no_desc">Data Not Available</string>
+    <string name="poster">Poster</string>
+    <string name="favorite">Favorite</string>
+    <string name="title_favorite_movies">Favorite Movies</string>
+    <string name="title_favorite_tvshows">Favorite TV Shows</string>
+    <string name="search">Search</string>
+    <string name="daily_reminder_message">Do you like movie ? check out our new collection</string>
+    <string name="release_reminder_message">Hey!! check out what movies release today</string>
+
+    <string-array name="setting_menu">
+        <item>Language</item>
+        <item>Notification</item>
+    </string-array>
+    <string name="appwidget_text">WIDGET</string>
+    <string name="add_widget">Add widget</string>
+    <string name="empty_text">No Data</string>
+    <string name="daily_reminder_title">Daily Notification</string>
+    <string name="release_reminder_title">Release Notification</string>
+    <string name="release_reminder_desc">Release Today</string>
+    <string name="daily_reminder_desc">Daily</string>
+    <string name="title_notification_setting">Notification</string>
+    <string name="daily_switch">daily_switch</string>
+    <string name="release_switch">release_switch</string>
+
+</resources>
