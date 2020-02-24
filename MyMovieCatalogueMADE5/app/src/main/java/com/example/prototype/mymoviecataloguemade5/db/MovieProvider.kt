@@ -47,13 +47,11 @@ class MovieProvider : ContentProvider() {
         strings1: Array<String>?,
         s1: String?
     ): Cursor? {
-        val cursor: Cursor?
-        when (sUriMatcher.match(uri)) {
-            MOVIE -> cursor = movieHelper.queryAll()
-            MOVIE_ID -> cursor = movieHelper.queryById(uri.lastPathSegment.toString())
-            else -> cursor = null
+        return when (sUriMatcher.match(uri)) {
+            MOVIE -> movieHelper.queryAll()
+            MOVIE_ID -> movieHelper.queryById(uri.lastPathSegment.toString())
+            else -> null
         }
-        return cursor
     }
 
     override fun insert(uri: Uri, contentValues: ContentValues?): Uri? {

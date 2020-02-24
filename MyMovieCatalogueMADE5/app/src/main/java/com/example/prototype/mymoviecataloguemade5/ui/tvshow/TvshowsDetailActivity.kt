@@ -55,7 +55,7 @@ class TvshowsDetailActivity : AppCompatActivity() {
         Glide.with(this)
             .load(Uri.parse("https://image.tmdb.org/t/p/w500/" + dTvshow?.photo))
             .into(img_photo_detail)
-        txt_title_detil.text = dTvshow?.title
+        txt_title_detail.text = dTvshow?.title
         txt_desc_detil.text = overview
         txt_rating_value.text = dTvshow?.rating.toString()
         txt_release_value.text = dTvshow?.release
@@ -90,7 +90,7 @@ class TvshowsDetailActivity : AppCompatActivity() {
             R.id.favorite_menu -> {
                 if (dFavTvshows?.id == null) {
                     val values = ContentValues()
-                    values.put(DatabaseContract.TvshowsColumn._ID, dTvshow?.id)
+                    values.put(DatabaseContract.TvshowsColumn.ID, dTvshow?.id)
                     values.put(DatabaseContract.TvshowsColumn.PHOTO, dTvshow?.photo)
                     values.put(DatabaseContract.TvshowsColumn.TITLE, dTvshow?.title)
                     values.put(DatabaseContract.TvshowsColumn.DESCRIPTION, dTvshow?.description)

@@ -27,11 +27,6 @@
         <item>Bahasa</item>
         <item>Pemberitahuan</item>
     </string-array>
-    <string name="appwidget_text">Widget</string>
-    <string name="add_widget">Add widget</string>
-    <string name="empty_text">Data tidak ditemukan</string>
-    <string name="daily_reminder_title">Pemberitahuan harian</string>
-    <string name="release_reminder_title">Pemberitahuan Terbaru</string>
     <string name="release_reminder_desc">Terbaru hari ini</string>
     <string name="daily_reminder_desc">Harian</string>
     <string name="title_notification_setting">Pemberitahuan</string>

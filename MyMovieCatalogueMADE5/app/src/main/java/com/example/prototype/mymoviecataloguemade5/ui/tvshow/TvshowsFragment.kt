@@ -112,11 +112,9 @@ class TvshowsFragment : Fragment() {
             }
         })
 
-        searchView.setOnCloseListener(object : SearchView.OnCloseListener {
-            override fun onClose(): Boolean {
-                callDataTvshow()
-                return false
-            }
-        })
+        searchView.setOnCloseListener {
+            callDataTvshow()
+            false
+        }
     }
 }

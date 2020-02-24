@@ -9,7 +9,7 @@ object MappingMoviesHelper {
         if (moviesCursor != null) {
             while (moviesCursor.moveToNext()) {
                 val id =
-                    moviesCursor.getString(moviesCursor.getColumnIndexOrThrow(DatabaseContract.MoviesColumn._ID))
+                    moviesCursor.getString(moviesCursor.getColumnIndexOrThrow(DatabaseContract.MoviesColumn.ID))
                 val photo =
                     moviesCursor.getString(moviesCursor.getColumnIndexOrThrow(DatabaseContract.MoviesColumn.PHOTO))
                 val title =
@@ -30,7 +30,7 @@ object MappingMoviesHelper {
         if (moviesCursor != null) {
             if (moviesCursor.moveToFirst()) {
                 val id =
-                    moviesCursor.getString(moviesCursor.getColumnIndexOrThrow(DatabaseContract.MoviesColumn._ID))
+                    moviesCursor.getString(moviesCursor.getColumnIndexOrThrow(DatabaseContract.MoviesColumn.ID))
                 val photo =
                     moviesCursor.getString(moviesCursor.getColumnIndexOrThrow(DatabaseContract.MoviesColumn.PHOTO))
                 val title =

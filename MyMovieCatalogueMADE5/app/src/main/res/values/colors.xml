@@ -4,4 +4,6 @@
     <color name="textColorDark">#000000</color>
     <color name="textColorPrimary">#FFFFFF</color>
     <color name="background">#6200EE</color>
+
+    <color name="splash_bg">#FFC107</color>
 </resources>

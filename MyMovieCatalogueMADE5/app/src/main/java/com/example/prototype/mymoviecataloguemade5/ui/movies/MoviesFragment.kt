@@ -17,7 +17,6 @@ import kotlinx.android.synthetic.main.fragment_movies.*
 class MoviesFragment : Fragment() {
     private lateinit var adapter: MoviesAdapter
     private lateinit var mainViewModel: MainViewModel
-    private var menu: Menu? = null
 
     private fun showLoading(state: Boolean) {
         if (state) {
@@ -113,11 +112,9 @@ class MoviesFragment : Fragment() {
             }
         })
 
-        searchView.setOnCloseListener (object : SearchView.OnCloseListener {
-            override fun onClose(): Boolean {
-                callDataMovie()
-                return false
-            }
-        })
+        searchView.setOnCloseListener {
+            callDataMovie()
+            false
+        }
     }
 }

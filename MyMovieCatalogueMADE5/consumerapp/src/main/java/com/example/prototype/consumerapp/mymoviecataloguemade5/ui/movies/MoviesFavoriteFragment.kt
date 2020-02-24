@@ -21,6 +21,7 @@ import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.async
 import kotlinx.coroutines.launch
 
+
 /**
  * A simple [Fragment] subclass.
  */
@@ -72,9 +73,12 @@ class MoviesFavoriteFragment : Fragment() {
         val handler = Handler(handlerThread.looper)
         val myObserver = object : ContentObserver(handler) {
             override fun onChange(self: Boolean) {
-                loadAsync()
+                activity?.runOnUiThread {
+                    loadAsync()
+                }
             }
         }
+
         context?.contentResolver?.registerContentObserver(CONTENT_URI, true, myObserver)
 
         isSavedInstanceState(savedInstanceState)

@@ -2,7 +2,10 @@ package com.example.prototype.mymoviecataloguemade5.ui.movies
 
 
 import android.content.Intent
+import android.database.ContentObserver
 import android.os.Bundle
+import android.os.Handler
+import android.os.HandlerThread
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -10,8 +13,8 @@ import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.prototype.mymoviecataloguemade5.MainActivity
 import com.example.prototype.mymoviecataloguemade5.R
+import com.example.prototype.mymoviecataloguemade5.db.DatabaseContract.MoviesColumn.Companion.CONTENT_URI
 import com.example.prototype.mymoviecataloguemade5.db.MappingMoviesHelper
-import com.example.prototype.mymoviecataloguemade5.db.MoviesHelper
 import kotlinx.android.synthetic.main.fragment_movies.*
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
@@ -24,7 +27,6 @@ import kotlinx.coroutines.launch
 class MoviesFavoriteFragment : Fragment() {
 
     private lateinit var adapter: MoviesAdapter
-    private lateinit var moviesHelper: MoviesHelper
 
     companion object {
         private const val EXTRA_STATE = "EXTRA_STATE"
@@ -65,8 +67,17 @@ class MoviesFavoriteFragment : Fragment() {
 
         showNoData(false)
 
-        moviesHelper = MoviesHelper.getInstance(this.requireContext())
-        moviesHelper.open()
+        val handlerThread = HandlerThread("DataObserver")
+        handlerThread.start()
+        val handler = Handler(handlerThread.looper)
+        val myObserver = object : ContentObserver(handler) {
+            override fun onChange(self: Boolean) {
+                activity?.runOnUiThread {
+                    loadAsync()
+                }
+            }
+        }
+        context?.contentResolver?.registerContentObserver(CONTENT_URI, true, myObserver)
 
         isSavedInstanceState(savedInstanceState)
 
@@ -91,11 +102,11 @@ class MoviesFavoriteFragment : Fragment() {
     private fun loadAsync() {
         showLoading(true)
         GlobalScope.launch(Dispatchers.Main) {
-            val deferredNotes = async(Dispatchers.IO) {
-                val cursor = moviesHelper.queryAll()
+            val deferredMovies = async(Dispatchers.IO) {
+                val cursor = context?.contentResolver?.query(CONTENT_URI, null, null, null, null)
                 MappingMoviesHelper.mapCursorToArrayList(cursor)
             }
-            val movies = deferredNotes.await()
+            val movies = deferredMovies.await()
             adapter.setData(movies)
             if (movies.size <= 0) {
                 showNoData(true)

@@ -8,7 +8,7 @@ object MappingTvshowsHelper {
         val tvshowList = ArrayList<Tvshows>()
         while (tvshowsCursor.moveToNext()) {
             val id =
-                tvshowsCursor.getString(tvshowsCursor.getColumnIndexOrThrow(DatabaseContract.TvshowsColumn._ID))
+                tvshowsCursor.getString(tvshowsCursor.getColumnIndexOrThrow(DatabaseContract.TvshowsColumn.ID))
             val photo =
                 tvshowsCursor.getString(tvshowsCursor.getColumnIndexOrThrow(DatabaseContract.TvshowsColumn.PHOTO))
             val title =
@@ -27,7 +27,7 @@ object MappingTvshowsHelper {
     fun mapCursorToList(moviesCursor: Cursor): Tvshows {
         if (moviesCursor.moveToFirst()) {
             val id =
-                moviesCursor.getString(moviesCursor.getColumnIndexOrThrow(DatabaseContract.MoviesColumn._ID))
+                moviesCursor.getString(moviesCursor.getColumnIndexOrThrow(DatabaseContract.MoviesColumn.ID))
             val photo =
                 moviesCursor.getString(moviesCursor.getColumnIndexOrThrow(DatabaseContract.MoviesColumn.PHOTO))
             val title =

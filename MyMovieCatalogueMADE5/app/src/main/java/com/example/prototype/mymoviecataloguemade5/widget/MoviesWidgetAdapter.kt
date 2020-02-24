@@ -6,7 +6,7 @@ import com.example.prototype.mymoviecataloguemade5.db.DatabaseContract.MoviesCol
 import com.example.prototype.mymoviecataloguemade5.db.DatabaseContract.MoviesColumn.Companion.RATING
 import com.example.prototype.mymoviecataloguemade5.db.DatabaseContract.MoviesColumn.Companion.RELEASE
 import com.example.prototype.mymoviecataloguemade5.db.DatabaseContract.MoviesColumn.Companion.TITLE
-import com.example.prototype.mymoviecataloguemade5.db.DatabaseContract.MoviesColumn.Companion._ID
+import com.example.prototype.mymoviecataloguemade5.db.DatabaseContract.MoviesColumn.Companion.ID
 import com.example.prototype.mymoviecataloguemade5.db.DatabaseContract.getColumnDouble
 import com.example.prototype.mymoviecataloguemade5.db.DatabaseContract.getColumnString
 
@@ -19,7 +19,7 @@ class ResultsItem(cursor: Cursor?) {
     var rating: Double = 0.0
 
     init {
-        id = getColumnString(cursor, _ID)
+        id = getColumnString(cursor, ID)
         photo = getColumnString(cursor, PHOTO)
         title = getColumnString(cursor, TITLE)
         description = getColumnString(cursor, DESCRIPTION)

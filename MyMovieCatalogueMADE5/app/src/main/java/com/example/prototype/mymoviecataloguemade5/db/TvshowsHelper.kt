@@ -6,7 +6,7 @@ import android.database.Cursor
 import android.database.SQLException
 import android.database.sqlite.SQLiteDatabase
 import android.database.sqlite.SQLiteOpenHelper
-import com.example.prototype.mymoviecataloguemade5.db.DatabaseContract.TvshowsColumn.Companion._ID
+import com.example.prototype.mymoviecataloguemade5.db.DatabaseContract.TvshowsColumn.Companion.ID
 
 class TvshowsHelper(context: Context) {
     private val dataBaseHelper: DatabaseHelper = DatabaseHelper(context)
@@ -48,13 +48,13 @@ class TvshowsHelper(context: Context) {
             null,
             null,
             null,
-            "$_ID ASC",
+            "$ID ASC",
             null
         )
     }
 
     fun queryById(id: String?): Cursor {
-        return database.query(DATABASE_TABLE, null, "$_ID = ?", arrayOf(id), null, null, null, null)
+        return database.query(DATABASE_TABLE, null, "$ID = ?", arrayOf(id), null, null, null, null)
     }
 
     fun insert(values: ContentValues?): Long {
@@ -62,11 +62,11 @@ class TvshowsHelper(context: Context) {
     }
 
     fun update(id: String, values: ContentValues?): Int {
-        return database.update(DATABASE_TABLE, values, "$_ID = ?", arrayOf(id))
+        return database.update(DATABASE_TABLE, values, "$ID = ?", arrayOf(id))
     }
 
     fun deleteById(id: String): Int {
-        return database.delete(DATABASE_TABLE, "$_ID = '$id'", null)
+        return database.delete(DATABASE_TABLE, "$ID = '$id'", null)
     }
 
 }

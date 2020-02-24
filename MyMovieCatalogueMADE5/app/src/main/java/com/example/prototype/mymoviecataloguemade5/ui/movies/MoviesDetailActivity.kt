@@ -61,7 +61,7 @@ class MoviesDetailActivity : AppCompatActivity() {
         Glide.with(this)
             .load("https://image.tmdb.org/t/p/w500/" + dMovie?.photo)
             .into(img_photo_detail)
-        txt_title_detil.text = dMovie?.title
+        txt_title_detail.text = dMovie?.title
         txt_desc_detil.text = overview
         txt_rating_value.text = dMovie?.rating.toString()
         txt_release_value.text = dMovie?.release
@@ -71,7 +71,9 @@ class MoviesDetailActivity : AppCompatActivity() {
         val handler = Handler(handlerThread.looper)
         val myObserver = object : ContentObserver(handler) {
             override fun onChange(self: Boolean) {
-                dFavMovie = loadDBSync(dMovie?.id.toString())
+                runOnUiThread {
+                    dFavMovie = loadDBSync(dMovie?.id.toString())
+                }
             }
         }
 
@@ -108,7 +110,7 @@ class MoviesDetailActivity : AppCompatActivity() {
             R.id.favorite_menu -> {
                 if (dFavMovie?.id == null) {
                     val values = ContentValues()
-                    values.put(DatabaseContract.TvshowsColumn._ID, dMovie?.id)
+                    values.put(DatabaseContract.MoviesColumn.ID, dMovie?.id)
                     values.put(DatabaseContract.MoviesColumn.PHOTO, dMovie?.photo)
                     values.put(DatabaseContract.MoviesColumn.TITLE, dMovie?.title)
                     values.put(DatabaseContract.MoviesColumn.DESCRIPTION, dMovie?.description)

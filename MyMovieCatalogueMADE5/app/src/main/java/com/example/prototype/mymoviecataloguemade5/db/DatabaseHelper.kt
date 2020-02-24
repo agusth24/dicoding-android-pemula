@@ -15,7 +15,7 @@ internal class DatabaseHelper(context: Context) :
         private const val DATABASE_VERSION = 2
 
         private val SQL_CREATE_TABLE_MOVIE = "CREATE TABLE $TABLE_NAME_MOVIE" +
-                " (${DatabaseContract.MoviesColumn._ID} TEXT PRIMARY KEY," +
+                " (${DatabaseContract.MoviesColumn.ID} TEXT PRIMARY KEY," +
                 " ${DatabaseContract.MoviesColumn.PHOTO} TEXT NOT NULL," +
                 " ${DatabaseContract.MoviesColumn.TITLE} TEXT NOT NULL," +
                 " ${DatabaseContract.MoviesColumn.DESCRIPTION} TEXT NOT NULL," +
@@ -23,7 +23,7 @@ internal class DatabaseHelper(context: Context) :
                 " ${DatabaseContract.MoviesColumn.RATING} REAL NOT NULL)"
 
         private val SQL_CREATE_TABLE_TVSHOW = "CREATE TABLE $TABLE_NAME_TVSHOW" +
-                " (${DatabaseContract.TvshowsColumn._ID} TEXT PRIMARY KEY," +
+                " (${DatabaseContract.TvshowsColumn.ID} TEXT PRIMARY KEY," +
                 " ${DatabaseContract.TvshowsColumn.PHOTO} TEXT NOT NULL," +
                 " ${DatabaseContract.TvshowsColumn.TITLE} TEXT NOT NULL," +
                 " ${DatabaseContract.TvshowsColumn.DESCRIPTION} TEXT NOT NULL," +
